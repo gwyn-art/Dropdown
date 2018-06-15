@@ -6,7 +6,7 @@ export default {
     }),
     container: cxs({
         borderRadius: '5px',
-        overflow: 'hidden',
+        overflowX: 'hidden',
         boxShadow: '0 0 10px 0 #000',
         width: '500px',
         padding: '10px 0'

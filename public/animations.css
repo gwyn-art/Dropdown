@@ -1,0 +1,11 @@
+@keyframes slidingDropDown {
+
+    from {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    to {
+        max-height: '600px';
+    }
+}

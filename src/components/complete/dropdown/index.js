@@ -66,7 +66,7 @@ class Dropdown extends React.Component {
                 {
                     focused ? (
                         <div
-                            className = {`${listClassName} ${styles.defaultList}`}
+                            className = {`${styles.defaultList} ${listClassName} `}
                             ref = { elm => this.dropdownList = elm} >
                             {children}
                         </div>
